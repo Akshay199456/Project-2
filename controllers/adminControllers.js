@@ -1,5 +1,6 @@
 const express = require('express');
 const router  = express.Router();
+const bcrypt = require("bcryptjs");
 const User = require("../models/user");
 const Item = require("../models/item");
 
@@ -76,19 +77,27 @@ router.get("/profile/:id/edit", async (req, res) => {
 
 // Update route for admin profile
 router.put("/profile/:id", async (req, res) => {
-	try{
+	console.log('HIT')
+	try {
 		// console.log(" Req body before: " + req.body);
-		// console.log("Request received");
-
+		 console.log("Request received");
 		// Need to get the new password and encrypt it before updating object in database
 		 const hashedPassword = bcrypt.hashSync(req.body.hashedPassword, bcrypt.genSaltSync(10));
-		 req.body.hashedPassword = hashedPassword;
-		// console.log(" Req body after: "+req.body);
+		 console.log('Passed Password')
+		 const updatedUserObj = {};
+		 updatedUserObj.firstName = req.body.firstName;
+
+		 updatedUserObj.lastName = req.body.lastName;
+		 // console.log('Passed Email')
+		 updatedUserObj.hashedPassword = hashedPassword;
+		 console.log('Passed Password')
+
+		// console.log(" Req body after: ", req.body);
 
 
 		// Updates user fn, ln, email and password with new info
 		// const updatedUser = await User.findOneAndUpdate({"email": req.session.email}, req.body, {new: true});
-		const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, {new: true});
+		const updatedUser = await User.findByIdAndUpdate(req.params.id, updatedUserObj, {new: true});
 		console.log("updatedUser" + updatedUser);
 
 		req.session.message = "Profile updated";
