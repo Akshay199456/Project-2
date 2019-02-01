@@ -4,7 +4,7 @@
 
 
 
-### Hosted Project Link: [Needs to be linked here]
+### Hosted Project Link: https://shopaholic-project.herokuapp.com/
 
 The website that we came up with is **Shopaholic**. Most retail shopping sites like Amazon, Walmart and Ebay that people visit bombard you with a lot of information which makes the experience to navigate the site poor. People are left confused as to which item to exactly buy, where to buy it and so on. As a result, we wanted to build a site with a design-first focus that made it a good and pleasurable experience for the user. Thus, came up the idea for **Shopaholic**.  
 
