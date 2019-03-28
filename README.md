@@ -25,13 +25,17 @@ The way the site currently works is that the admin has the ability to create the
 
 Given below is the userStories used for this project:
 
-![UserStories Link](https://git.generalassemb.ly/AkshayMysore/Project-2/blob/master/public/extra/userStories.png) 
+![UserStories Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/userStories.png) 
 
-### Wireframes:
+### Wireframes and ERD:
 
-Given below is the wireFrame link used for this project:
+Given below is the wireFrame link and ERD used for this project:
 
-[Wireframe Link](https://app.moqups.com/seheesf88@gmail.com/gsDUXUNawe/edit/page/a86e37c26)
+![Wireframe Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/1.jpg)
+![Wireframe Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/2.jpg)
+![Wireframe Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/3.jpg)
+![Wireframe Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/4.jpg)
+![Wireframe Link](https://github.com/Akshay199456/Project-2/blob/master/public/extra/ERD.jpg)
 
 
 ### Contributer Information:
