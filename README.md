@@ -21,7 +21,7 @@ There was a lot of work that was put in from all the team members to make this p
 
 The way the site currently works is that the admin has the ability to create the items and put them on the market. In order to create and admin account, you will need to register an account with the email as **admin@gmail.com**. Once the admin account has been created, you will be able to add as many items on the market as you want. You can then create user accounts by filling it with any information. Once logged in, the user can view all the items on the market, updated his profile info, view his order history and buy an item on the market. 
 
-### UserStories [Needs to be updated for the current projected]:
+### UserStories:
 
 Given below is the userStories used for this project:
 
